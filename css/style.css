@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #1B8B8F;
+}
+
+body > header > div {
+  width: 18%;
+  margin: 0 auto;
+  margin-bottom: 0.4rem;
+}
+
+nav {
+  width: 75%;
+  display: flex;
+  background-color: #593D30;
+  margin: 0 auto;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+nav div {
+  margin: 0 auto;
+  width: 55%;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0rem 2.8rem;
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+main section {
+  flex-direction: column;
+  background-color: #487E8A;
+  text-align: left;
+  margin-top: 0.5rem;
+  width: 75%;
+}
+main section h2 {
+  background-color: #593D30;
+  padding: 0.8rem;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  margin: 0.5em;
+}
+main section p {
+  margin: 0.4em;
+  color: white;
+  font-size: 32px;
+  line-break: auto;
+  padding: 2rem;
+}
+main img {
+  margin: 0.5em;
+  border-radius: 12px;
+}
+main aside {
+  position: relative;
+  left: 1rem;
+  background-color: white;
+  flex-direction: column;
+  width: 30%;
+}
+main aside h2 {
+  border-radius: 15px;
+  text-align: center;
+  background-color: #593D30;
+  padding: 0.5rem;
+  color: white;
+  margin: 1.8rem 1rem;
+}
+main aside p {
+  text-align: justify;
+  font-size: 28px;
+  margin: 1rem;
+}/*# sourceMappingURL=style.css.map */
